@@ -15,10 +15,11 @@ public class SortColors {
      * <p>
      * Input: [2,0,2,1,1,0]
      * Output: [0,0,1,1,2,2]
+     * <p>
+     * 只有三种颜色 即三个数字
      *
      * @param nums
      */
-
     public static int[] sortColors(int[] nums) {
         if (nums == null || nums.length == 0) {
             return null;
