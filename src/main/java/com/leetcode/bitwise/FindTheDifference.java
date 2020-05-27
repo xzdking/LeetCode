@@ -2,7 +2,9 @@ package com.leetcode.bitwise;
 
 /**
  * 位运算
- * 异或：相同为零 不同为一
+ * 异或：
+ * 相同为零 不同为一
+ * 任何数异或0等于其本身
  * LeetCode 389
  */
 public class FindTheDifference {
