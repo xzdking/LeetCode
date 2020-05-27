@@ -18,6 +18,7 @@ public class MoveZeroes {
      */
 
     // 适用于 零 少的情况
+    // operation num: nums.length
     public static int[] moveZeroes(int[] nums) {
         if (nums == null || nums.length == 0) {
             return null;
@@ -37,6 +38,8 @@ public class MoveZeroes {
     /**
      * 实质：冒泡排序法
      * 适用于 零 多的情况
+     *
+     * operation num: 2*num of non-zero
      */
     public static int[] moveZeroesBubble(int[] nums) {
         if (nums == null || nums.length == 0) {
